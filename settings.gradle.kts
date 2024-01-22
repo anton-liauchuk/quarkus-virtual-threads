@@ -10,4 +10,4 @@ pluginManagement {
         id(quarkusPluginId) version quarkusPluginVersion
     }
 }
-rootProject.name="virtual-threads"
+rootProject.name="quarkus-virtual-threads"
