@@ -1,0 +1,11 @@
+####### get item by id
+GET 127.0.0.1:8080/items/1
+Content-Type: */*
+
+####### create an item
+POST 127.0.0.1:8080/items
+Content-Type: application/json
+
+{
+    "name": "name"
+}
