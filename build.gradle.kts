@@ -19,8 +19,10 @@ dependencies {
     implementation("io.quarkus:quarkus-arc")
     implementation("io.quarkus:quarkus-jdbc-postgresql")
     implementation("io.quarkus:quarkus-hibernate-orm-panache")
+
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
+    testImplementation("io.quarkus.junit5:junit5-virtual-threads")
 }
 
 group = "org.uuidable"
